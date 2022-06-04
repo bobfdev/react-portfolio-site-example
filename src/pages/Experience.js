@@ -4,7 +4,6 @@ import 'react-vertical-timeline-component/style.min.css';
 import { IoMdSchool } from 'react-icons/io';
 import { MdWork } from 'react-icons/md';
 import { FaLaptopCode } from 'react-icons/fa';
-import '../styles/Experience.css'
 
 function Experience() {
   return (
@@ -17,8 +16,9 @@ function Experience() {
           icon={<IoMdSchool />}
           >
           <h3 className='vertical-element-timeline-title'>
-            University of Massachusetts - Amherst, MA
+            University of Massachusetts - Amherst
           </h3>
+          <h4 style={{ fontStyle: 'italic', color: '#8e8e8ee4' }}>Amherst, Massachusetts</h4>
           <p>Bachelor's Degree</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement 
@@ -28,8 +28,9 @@ function Experience() {
           icon={<MdWork />}
           >
           <h3 className='vertical-element-timeline-title'>
-            Sunrise Sports & Entertainment - Sunrise, FL
+            Sunrise Sports & Entertainment/Florida Panthers
           </h3>
+          <h4 style={{ fontStyle: 'italic', color: '#8e8e8ee4' }}>Sunrise, Florida</h4>
           <p>Inside Sales Representative</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement 
@@ -39,8 +40,9 @@ function Experience() {
           icon={<MdWork />}
           >
           <h3 className='vertical-element-timeline-title'>
-            Harrow Sports - Southeast Region
+            Harrow Sports
           </h3>
+          <h4 style={{ fontStyle: 'italic', color: '#8e8e8ee4' }}>Weston, Florida</h4>
           <p>Regional Sales Consultant</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement 
@@ -50,8 +52,9 @@ function Experience() {
           icon={<MdWork />}
           >
           <h3 className='vertical-element-timeline-title'>
-            BigCommerce - Austin, TX
+            BigCommerce
           </h3>
+          <h4 style={{ fontStyle: 'italic', color: '#8e8e8ee4' }}>Austin, Texas</h4>
           <p>Account Executive</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement 
@@ -61,8 +64,9 @@ function Experience() {
           icon={<MdWork />}
           >
           <h3 className='vertical-element-timeline-title'>
-            Qualtrics - Plano, TX
+            Qualtrics
           </h3>
+          <h4 style={{ fontStyle: 'italic', color: '#8e8e8ee4' }}>Plano, Texas</h4>
           <p>Senior Account Executive</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement 
@@ -72,8 +76,9 @@ function Experience() {
           icon={<MdWork />}
           >
           <h3 className='vertical-element-timeline-title'>
-            MapAnything - TOLA Region
+            MapAnything
           </h3>
+          <h4 style={{ fontStyle: 'italic', color: '#8e8e8ee4' }}>Dallas, Texas</h4>
           <p>Enterprise Account Executive</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement 
@@ -83,8 +88,9 @@ function Experience() {
           icon={<MdWork />}
           >
           <h3 className='vertical-element-timeline-title'>
-            OwnBackup - TOLA Region
+            OwnBackup
           </h3>
+          <h4 style={{ fontStyle: 'italic', color: '#8e8e8ee4' }}>Dallas, Texas</h4>
           <p>Enterprise Account Executive</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement 
@@ -94,7 +100,7 @@ function Experience() {
           icon={<FaLaptopCode />}
           >
           <h3 className='vertical-element-timeline-title'>
-            Frontend Web Developer
+            Web Developer
           </h3>
           <p>Online Courses</p>
         </VerticalTimelineElement>
@@ -105,8 +111,9 @@ function Experience() {
           icon={<MdWork />}
           >
           <h3 className='vertical-element-timeline-title'>
-            Property Guard - Dallas, TX
+            Property Guard
           </h3>
+          <h4 style={{ fontStyle: 'italic', color: '#8e8e8ee4' }}>Dallas, Texas</h4>
           <p>Vice President</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
