@@ -11,7 +11,7 @@ function Projects() {
         {projectData.map((project, index) => {
           return (
             <ProjectCard 
-              key={index}
+              id={index}
               name={project.name}
               image={project.image}
             />
